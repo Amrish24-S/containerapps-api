@@ -40,7 +40,7 @@ jobs:
           registryPassword: ${{ secrets.TERCAJAVA_REGISTRY_PASSWORD }}
           containerAppName: ter-ca-java
           resourceGroup: ter-RG
-          imageToBuild: amrish24/ter-ca-java:${{ github.sha }}
+          imageToBuild: amrish24/containerappapi:latest
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
